@@ -38,14 +38,11 @@ Biz yoshlarning **intizomi, rivojlanish madaniyati va mustaqil o‘rganish qobil
 - Toza va mantiqiy kod struktura / Clean and organized code  
 
 ---
+## 🌍 Jonli sayt / Live Demo
+🔗 [Saytni ko‘rish / View Website](https://www.techwebby.uz)
 
-🌍 Jonli sayt / Live Demo
+---
 
-🔗 Mentora saytini ko‘rish / View Mentora
-
-👨‍💻 Muallif / Author
-
-Shokhjahon Qalandarov — Front-End dasturchi & TechWebby
- asoschisi / founder
-
-“Har bir loyiha — yangi bilim sari qadam.” / "Building knowledge, one project at a time."
+## 👨‍💻 Muallif / Author
+**Shokhjahon Qalandarov** — Front-End dasturchi & [TechWebby](https://www.techWebby) asoschisi  
+> “Har bir loyiha — yangi bilim sari qadam.” / "Building knowledge, one project at a time."
