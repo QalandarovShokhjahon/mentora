@@ -25,8 +25,6 @@ Biz yoshlarning **intizomi, rivojlanish madaniyati va mustaqil o‘rganish qobil
 ## 🛠 Texnologiyalar / Tech Stack
 - **HTML5, CSS3 & Tailwind CSS** — Strukturaviy va responsiv dizayn / Structure & responsive design  
 - **JavaScript (React optional)** — Interaktiv elementlar / Interactive features  
-- **Node.js / Express (optional)** — Backend support / Server-side logic  
-- **MongoDB / PostgreSQL (optional)** — Ma’lumotlar bazasi / Database  
 - **Vercel / Netlify / GitHub Pages** — Joylashtirish / Deployment  
 
 ---
