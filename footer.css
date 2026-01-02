@@ -1,0 +1,23 @@
+/* Footer Styles */
+.footer {
+    background-color: #020617;
+    color: #cbd5e0;
+    padding: 2.5rem 0 0;
+    position: relative;
+}
+
+.footer::before {
+    content: none;
+}
+
+.footer-bottom {
+    border-top: 1px solid #1f2937;
+    padding: 1.4rem 0 1.2rem;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #a0aec0;
+    font-size: 0.9rem;
+}

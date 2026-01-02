@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentora — Learn, Grow, Succeed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css">
+</head>
+<body class="frontend-page">
+    <!-- Fixed Survey Banner -->
+    <div class="fixed-survey-banner">
+        <div class="survey-banner-content">
+            <i class="fas fa-poll"></i>
+            <a href="about.html#expansion-section" class="survey-link-text">So'rovnomada qatnashing</a>
+            <a href="https://t.me/TechWebby" target="_blank" class="survey-action-btn">
+                <i class="fab fa-telegram"></i>
+                <span>Qatnashish</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Mentora</a>
+            <div class="nav-links">
+                <a href="index.html">Bosh sahifa</a>
+                <a href="about.html">Biz haqimizda</a>
+                <a href="frontend.html" class="active">Frontend</a>
+                <a href="korean.html">Koreys tili</a>
+                <a href="development.html">Rivojlanish</a>
+                <a href="contact.html">Aloqa</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <!-- Header Section -->
+        <header class="frontend-header">
+            <div class="container">
+                <h1>Frontend Dasturlash Kursi</h1>
+                <p>Zamonaviy web-dasturlashni noldan boshlab o'rganing. HTML, CSS, JavaScript va eng so'ngi texnologiyalar.</p>
+                <div class="header-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-book"></i>
+                        <span>50+ Darslar</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <span>100+ Soat</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Sertifikat</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Frontend Qiziqarli Faktlar -->
+        <section class="container" style="margin-bottom: 4rem;">
+            <h2 class="section-title" style="color: #f9fafb; text-align: center; margin-bottom: 3rem; font-size: 2rem;"> Frontend Dasturlash Qiziqarli Faktlari</h2>
+            
+            <div class="modules-grid">
+                <article class="module-card" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 51, 234, 0.1));">
+                    <div class="module-header">
+                        <div class="module-icon" style="background: rgba(59, 130, 246, 0.2); color: #93c5fd;">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <div class="module-info">
+                            <h3> Webning kelib chiqishi</h3>
+                            <div class="module-meta">
+                                <span><i class="fas fa-calendar"></i> 1991 yil</span>
+                                <span><i class="fas fa-user"></i> Tim Berners-Lee</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module-content">
+                        <p>World Wide Web 1991 yilda Tim Berners-Lee tomonidan ixtiro qilingan. Birinchi veb-sahifa faqat matn va havolalardan iborat edi.</p>
+                        <ul class="module-topics">
+                            <li><i class="fas fa-check"></i> Birinchi brauzer: WorldWideWeb</li>
+                            <li><i class="fas fa-check"></i> 1993 yilda 600 dan ortiq veb-sahifa</li>
+                            <li><i class="fas fa-check"></i> Hozirgi kunda 1.7 milliard+ sayt</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="module-card" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(16, 185, 129, 0.1));">
+                    <div class="module-header">
+                        <div class="module-icon" style="background: rgba(34, 197, 94, 0.2); color: #bbf7d0;">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="module-info">
+                            <h3> CSSning rivojlanishi</h3>
+                            <div class="module-meta">
+                                <span><i class="fas fa-calendar"></i> 1996 yil</span>
+                                <span><i class="fas fa-user"></i> Håkon Wium Lie</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module-content">
+                        <p>CSS birinchi marta 1996 yilda taklif qilingan. U veb-sahifalarni chiroyli qilish uchun yaratilgan.</p>
+                        <ul class="module-topics">
+                            <li><i class="fas fa-check"></i> CSS1 (1996), CSS2 (1998), CSS3 (2011)</li>
+                            <li><i class="fas fa-check"></i> Flexbox (2012), Grid (2017)</li>
+                            <li><i class="fas fa-check"></i> Hozirda CSS4 ishlanmoqda</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="module-card" style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(251, 146, 60, 0.1));">
+                    <div class="module-header">
+                        <div class="module-icon" style="background: rgba(245, 158, 11, 0.2); color: #fed7aa;">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="module-info">
+                            <h3> JavaScript tarixi</h3>
+                            <div class="module-meta">
+                                <span><i class="fas fa-calendar"></i> 1995 yil</span>
+                                <span><i class="fas fa-user"></i> Brendan Eich</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module-content">
+                        <p>JavaScript atigi 10 kun ichida yaratilgan! U dastlab Mocha deb nomlangan, keyin LiveScript, nihoyat JavaScript bo'lgan.</p>
+                        <ul class="module-topics">
+                            <li><i class="fas fa-check"></i> 1997 yilda ECMA standardi qabul qilindi</li>
+                            <li><i class="fas fa-check"></i> ES6/ES2015 katta o'zgarishlar keltirdi</li>
+                            <li><i class="fas fa-check"></i> Hozirgi kunda dunyodagi eng mashhur til</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="module-card" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(139, 92, 246, 0.1));">
+                    <div class="module-header">
+                        <div class="module-icon" style="background: rgba(168, 85, 247, 0.2); color: #e9d5ff;">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="module-info">
+                            <h3>🚀 Frameworklar davri</h3>
+                            <div class="module-meta">
+                                <span><i class="fas fa-calendar"></i> 2010-yillar</span>
+                                <span><i class="fas fa-building"></i> Facebook, Google</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module-content">
+                        <p>Zamonaviy frontend frameworklar 2010-yillarda paydo bo'la boshladi. React, Angular, Vue katta inqilob keltirdi.</p>
+                        <ul class="module-topics">
+                            <li><i class="fas fa-check"></i> jQuery (2006) - birinchi mashhur kutubxona</li>
+                            <li><i class="fas fa-check"></i> Angular (2010), React (2013), Vue (2014)</li>
+                            <li><i class="fas fa-check"></i> Component-based development</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- HTML Darslari - Oson va Tushunarli -->
+        <section class="course-modules">
+            <div class="container">
+                <h2 class="section-title">📚 HTML Darslari - Boshlang'ichlar Uchun</h2>
+                <p style="text-align: center; color: #cbd5e1; margin-bottom: 3rem; font-size: 1.1rem;">
+                    HTML ni o'rganish endi juda oson! Har bir darsda amaliy misollar va tushuntirishlar mavjud.
+                </p>
+                
+                <div class="modules-grid">
+                    <!-- 1-Dars: HTML Nima? -->
+                    <div class="module-card" style="background: linear-gradient(135deg, #1e293b, #334155);">
+                        <div class="module-header">
+                            <div class="module-icon" style="background: #3b82f6; color: white;">
+                                <span style="font-size: 2rem;">📖</span>
+                            </div>
+                            <div class="module-info">
+                                <h3>1-Dars: HTML Nima?</h3>
+                                <div class="module-meta">
+                                    <span>🕐 10 daqiqa</span>
+                                    <span>🎯 Juda oson</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <p>HTML - bu veb-sahifaning "skeleti". U qanday ishlashini o'rganamiz.</p>
+                            
+                            <div style="background: #0f172a; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+                                <div style="color: #3b82f6; font-weight: bold; margin-bottom: 0.5rem;">📝 Nimalarni o'rganasiz:</div>
+                                <ul style="color: #cbd5e1; margin: 0; padding-left: 1.2rem;">
+                                    <li>HTML nima?</li>
+                                    <li>Veb-sahifa tuzilmasi</li>
+                                    <li>Asosiy teglar</li>
+                                </ul>
+                            </div>
+                            
+                            <div style="background: #065f46; border-left: 4px solid #10b981; padding: 0.8rem; margin: 0.5rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.3rem;">💡 Misol:</div>
+                                <code style="color: #cbd5e1; font-size: 0.9rem;">
+                                    &lt;h1&gt;Salom Dunyo!&lt;/h1&gt;
+                                </code>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary module-btn">🚀 Boshlash</button>
+                    </div>
+
+                    <!-- 2-Dars: Matnlarni Yozish -->
+                    <div class="module-card" style="background: linear-gradient(135deg, #1e293b, #334155);">
+                        <div class="module-header">
+                            <div class="module-icon" style="background: #10b981; color: white;">
+                                <span style="font-size: 2rem;">✏️</span>
+                            </div>
+                            <div class="module-info">
+                                <h3>2-Dars: Matnlarni Yozish</h3>
+                                <div class="module-meta">
+                                    <span>🕐 15 daqiqa</span>
+                                    <span>🎯 Juda oson</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <p>Matnlarni formatlash, sarlavhalar va paragraflar yaratish.</p>
+                            
+                            <div style="background: #0f172a; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.5rem;">📝 Nimalarni o'rganasiz:</div>
+                                <ul style="color: #cbd5e1; margin: 0; padding-left: 1.2rem;">
+                                    <li>Sarlavhalar (h1-h6)</li>
+                                    <li>Paragraflar (p)</li>
+                                    <li>Matnni belgilash</li>
+                                </ul>
+                            </div>
+                            
+                            <div style="background: #065f46; border-left: 4px solid #10b981; padding: 0.8rem; margin: 0.5rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.3rem;">💡 Misol:</div>
+                                <code style="color: #cbd5e1; font-size: 0.9rem;">
+                                    &lt;p&gt;Bu mening &lt;strong&gt;paragrafim&lt;/strong&gt;.&lt;/p&gt;
+                                </code>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary module-btn">🚀 Boshlash</button>
+                    </div>
+
+                    <!-- 3-Dars: Ro'yxatlar Yaratish -->
+                    <div class="module-card" style="background: linear-gradient(135deg, #1e293b, #334155);">
+                        <div class="module-header">
+                            <div class="module-icon" style="background: #f59e0b; color: white;">
+                                <span style="font-size: 2rem;">📋</span>
+                            </div>
+                            <div class="module-info">
+                                <h3>3-Dars: Ro'yxatlar Yaratish</h3>
+                                <div class="module-meta">
+                                    <span>🕐 12 daqiqa</span>
+                                    <span>🎯 Juda oson</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <p>Turli xil ro'yxatlar yaratish: raqamli, nuqtali, ichki ro'yxatlar.</p>
+                            
+                            <div style="background: #0f172a; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+                                <div style="color: #f59e0b; font-weight: bold; margin-bottom: 0.5rem;">📝 Nimalarni o'rganasiz:</div>
+                                <ul style="color: #cbd5e1; margin: 0; padding-left: 1.2rem;">
+                                    <li>Raqamli ro'yxat (ol)</li>
+                                    <li>Nuqtali ro'yxat (ul)</li>
+                                    <li>Ichki ro'yxatlar</li>
+                                </ul>
+                            </div>
+                            
+                            <div style="background: #065f46; border-left: 4px solid #10b981; padding: 0.8rem; margin: 0.5rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.3rem;">💡 Misol:</div>
+                                <code style="color: #cbd5e1; font-size: 0.9rem;">
+                                    &lt;ul&gt;&lt;li&gt;Olma&lt;/li&gt;&lt;/ul&gt;
+                                </code>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary module-btn">🚀 Boshlash</button>
+                    </div>
+
+                    <!-- 4-Dars: Rasmlarni Qo'yish -->
+                    <div class="module-card" style="background: linear-gradient(135deg, #1e293b, #334155);">
+                        <div class="module-header">
+                            <div class="module-icon" style="background: #ef4444; color: white;">
+                                <span style="font-size: 2rem;">🖼️</span>
+                            </div>
+                            <div class="module-info">
+                                <h3>4-Dars: Rasmlarni Qo'yish</h3>
+                                <div class="module-meta">
+                                    <span>🕐 15 daqiqa</span>
+                                    <span>🎯 Juda oson</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <p>Web-sahifaga rasm qo'shish va uni to'g'ri sozlash.</p>
+                            
+                            <div style="background: #0f172a; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+                                <div style="color: #ef4444; font-weight: bold; margin-bottom: 0.5rem;">📝 Nimalarni o'rganasiz:</div>
+                                <ul style="color: #cbd5e1; margin: 0; padding-left: 1.2rem;">
+                                    <li>img tegi</li>
+                                    <li>src va alt atributlari</li>
+                                    <li>Rasm o'lchamlari</li>
+                                </ul>
+                            </div>
+                            
+                            <div style="background: #065f46; border-left: 4px solid #10b981; padding: 0.8rem; margin: 0.5rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.3rem;">💡 Misol:</div>
+                                <code style="color: #cbd5e1; font-size: 0.9rem;">
+                                    &lt;img src="rasm.jpg" alt="Tavsif"&gt;
+                                </code>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary module-btn">🚀 Boshlash</button>
+                    </div>
+
+                    <!-- 5-Dars: Havolalar Yaratish -->
+                    <div class="module-card" style="background: linear-gradient(135deg, #1e293b, #334155);">
+                        <div class="module-header">
+                            <div class="module-icon" style="background: #8b5cf6; color: white;">
+                                <span style="font-size: 2rem;">🔗</span>
+                            </div>
+                            <div class="module-info">
+                                <h3>5-Dars: Havolalar Yaratish</h3>
+                                <div class="module-meta">
+                                    <span>🕐 18 daqiqa</span>
+                                    <span>🎯 Juda oson</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <p>Sahifalar orasida havolalar yaratish va navigatsiya qurish.</p>
+                            
+                            <div style="background: #0f172a; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+                                <div style="color: #8b5cf6; font-weight: bold; margin-bottom: 0.5rem;">📝 Nimalarni o'rganasiz:</div>
+                                <ul style="color: #cbd5e1; margin: 0; padding-left: 1.2rem;">
+                                    <li>a tegi</li>
+                                    <li>href atributi</li>
+                                    <li>Ichki va tashqi havolalar</li>
+                                </ul>
+                            </div>
+                            
+                            <div style="background: #065f46; border-left: 4px solid #10b981; padding: 0.8rem; margin: 0.5rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.3rem;">💡 Misol:</div>
+                                <code style="color: #cbd5e1; font-size: 0.9rem;">
+                                    &lt;a href="https://google.com"&gt;Google&lt;/a&gt;
+                                </code>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary module-btn">🚀 Boshlash</button>
+                    </div>
+
+                    <!-- 6-Dars: Jadvallar -->
+                    <div class="module-card" style="background: linear-gradient(135deg, #1e293b, #334155);">
+                        <div class="module-header">
+                            <div class="module-icon" style="background: #06b6d4; color: white;">
+                                <span style="font-size: 2rem;">📊</span>
+                            </div>
+                            <div class="module-info">
+                                <h3>6-Dars: Jadvallar</h3>
+                                <div class="module-meta">
+                                    <span>🕐 20 daqiqa</span>
+                                    <span>🎯 Juda oson</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <p>Ma'lumotlarni jadval shaklida ko'rsatish.</p>
+                            
+                            <div style="background: #0f172a; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+                                <div style="color: #06b6d4; font-weight: bold; margin-bottom: 0.5rem;">📝 Nimalarni o'rganasiz:</div>
+                                <ul style="color: #cbd5e1; margin: 0; padding-left: 1.2rem;">
+                                    <li>table, tr, td teglari</li>
+                                    <li>Sarlavha qatori (th)</li>
+                                    <li>Yacheykalarni birlashtirish</li>
+                                </ul>
+                            </div>
+                            
+                            <div style="background: #065f46; border-left: 4px solid #10b981; padding: 0.8rem; margin: 0.5rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.3rem;">💡 Misol:</div>
+                                <code style="color: #cbd5e1; font-size: 0.9rem;">
+                                    &lt;table&gt;&lt;tr&gt;&lt;td&gt;Ma'lumot&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                </code>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary module-btn">🚀 Boshlash</button>
+                    </div>
+
+                    <!-- 7-Dars: Formalar -->
+                    <div class="module-card" style="background: linear-gradient(135deg, #1e293b, #334155);">
+                        <div class="module-header">
+                            <div class="module-icon" style="background: #f97316; color: white;">
+                                <span style="font-size: 2rem;">📝</span>
+                            </div>
+                            <div class="module-info">
+                                <h3>7-Dars: Formalar</h3>
+                                <div class="module-meta">
+                                    <span>🕐 25 daqiqa</span>
+                                    <span>🎯 Oson</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <p>Foydalanuvchidan ma'lumot olish uchun formalar yaratish.</p>
+                            
+                            <div style="background: #0f172a; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+                                <div style="color: #f97316; font-weight: bold; margin-bottom: 0.5rem;">📝 Nimalarni o'rganasiz:</div>
+                                <ul style="color: #cbd5e1; margin: 0; padding-left: 1.2rem;">
+                                    <li>form, input teglari</li>
+                                    <li>Matn, parol, email maydonlari</li>
+                                    <li>Tanlash elementlari</li>
+                                </ul>
+                            </div>
+                            
+                            <div style="background: #065f46; border-left: 4px solid #10b981; padding: 0.8rem; margin: 0.5rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.3rem;">💡 Misol:</div>
+                                <code style="color: #cbd5e1; font-size: 0.9rem;">
+                                    &lt;input type="text" placeholder="Ism"&gt;
+                                </code>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary module-btn">🚀 Boshlash</button>
+                    </div>
+
+                    <!-- 8-Dars: HTML5 Yangiliklari -->
+                    <div class="module-card" style="background: linear-gradient(135deg, #1e293b, #334155);">
+                        <div class="module-header">
+                            <div class="module-icon" style="background: #14b8a6; color: white;">
+                                <span style="font-size: 2rem;">🆕</span>
+                            </div>
+                            <div class="module-info">
+                                <h3>8-Dars: Zamonaviy HTML5</h3>
+                                <div class="module-meta">
+                                    <span>🕐 20 daqiqa</span>
+                                    <span>🎯 O'rta</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <p>HTML5 ning yangi imkoniyatlari va semantic teglar.</p>
+                            
+                            <div style="background: #0f172a; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+                                <div style="color: #14b8a6; font-weight: bold; margin-bottom: 0.5rem;">📝 Nimalarni o'rganasiz:</div>
+                                <ul style="color: #cbd5e1; margin: 0; padding-left: 1.2rem;">
+                                    <li>Sarlavha (header)</li>
+                                    <li>Menyu (nav)</li>
+                                    <li>Asosiy qism (main)</li>
+                                    <li>Pastki qism (footer)</li>
+                                </ul>
+                            </div>
+                            
+                            <div style="background: #065f46; border-left: 4px solid #10b981; padding: 0.8rem; margin: 0.5rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.3rem;">💡 Misol:</div>
+                                <code style="color: #cbd5e1; font-size: 0.9rem;">
+                                    &lt;header&gt;&lt;h1&gt;Sayt sarlavhasi&lt;/h1&gt;&lt;/header&gt;
+                                </code>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary module-btn">🚀 Boshlash</button>
+                    </div>
+
+                    <!-- 9-Dars: Amaliy Loyiha -->
+                    <div class="module-card" style="background: linear-gradient(135deg, #059669, #047857);">
+                        <div class="module-header">
+                            <div class="module-icon" style="background: #10b981; color: white;">
+                                <span style="font-size: 2rem;">🎯</span>
+                            </div>
+                            <div class="module-info">
+                                <h3>🏆 Amaliy Loyiha</h3>
+                                <div class="module-meta">
+                                    <span>🕐 30 daqiqa</span>
+                                    <span>🎯 Barchasi birga</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-content">
+                            <p>🎉 Barcha bilimlarni birlashtirib, o'zingizning birinchi veb-sahifangizni yarating!</p>
+                            
+                            <div style="background: #064e3b; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
+                                <div style="color: #10b981; font-weight: bold; margin-bottom: 0.5rem;">🎯 Loyiha tarkibi:</div>
+                                <ul style="color: #cbd5e1; margin: 0; padding-left: 1.2rem;">
+                                    <li>✅ Shaxsiy veb-sahifa</li>
+                                    <li>✅ Sarlavha va menyu</li>
+                                    <li>✅ O'zingiz haqingizda</li>
+                                    <li>✅ Kontakt ma'lumotlari</li>
+                                    <li>✅ Rasmlar va havolalar</li>
+                                </ul>
+                            </div>
+                            
+                            <div style="background: #fbbf24; border-left: 4px solid #f59e0b; padding: 0.8rem; margin: 0.5rem 0;">
+                                <div style="color: #92400e; font-weight: bold; margin-bottom: 0.3rem;">🏆 Siz olasiz:</div>
+                                <ul style="color: #78350f; margin: 0; padding-left: 1.2rem;">
+                                    <li>To'liq ishlaydigan veb-sahifa</li>
+                                    <li>Barcha kodlar bilan tanishish</li>
+                                    <li>Keyingi darslar uchun tayyorgarlik</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary module-btn" style="background: #10b981; color: white;">🚀 Loyihani Boshlash</button>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: rgba(16, 185, 129, 0.1); border-radius: 12px; border: 2px solid rgba(16, 185, 129, 0.3);">
+                    <h3 style="color: #10b981; margin-bottom: 1rem;">🎓 Darslarni tugatgandan so'ng</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; max-width: 800px; margin: 0 auto;">
+                        <div style="background: rgba(15, 23, 42, 0.8); padding: 1rem; border-radius: 8px;">
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">📋</div>
+                            <div style="color: #cbd5e1; font-weight: bold;">HTML asoslari</div>
+                        </div>
+                        <div style="background: rgba(15, 23, 42, 0.8); padding: 1rem; border-radius: 8px;">
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">💻</div>
+                            <div style="color: #cbd5e1; font-weight: bold;">Birinchi sahifa</div>
+                        </div>
+                        <div style="background: rgba(15, 23, 42, 0.8); padding: 1rem; border-radius: 8px;">
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
+                            <div style="color: #cbd5e1; font-weight: bold;">CSSga tayyor</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VS Code Dasturiy Ta'minot -->
+        <section class="container" style="margin-bottom: 4rem;">
+            <h2 class="section-title" style="color: #f9fafb; text-align: center; margin-bottom: 3rem; font-size: 2rem;">💻 VS Code - Dasturchilarning Eng Yaxshi Tanlovi</h2>
+            
+            <div class="module-card" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 51, 234, 0.1)); margin-bottom: 3rem;">
+                <div class="module-header">
+                    <div class="module-icon" style="background: rgba(59, 130, 246, 0.2); color: #93c5fd;">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="module-info">
+                        <h3>Visual Studio Code (VS Code)</h3>
+                        <div class="module-meta">
+                            <span><i class="fas fa-building"></i> Microsoft tomonidan</span>
+                            <span><i class="fas fa-star"></i> Eng mashhur kod editör</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="module-content">
+                    <p>VS Code - bu bepul, ochiq kodli va juda kuchli kod editör. U web-dasturchilar uchun eng yaxshi vositalardan biri hisoblanadi.</p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+                        <div style="background: rgba(15, 23, 42, 0.8); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(59, 130, 246, 0.3);">
+                            <div style="font-size: 2.5rem; margin-bottom: 1rem;">🚀</div>
+                            <h4 style="color: #3b82f6; margin-bottom: 0.5rem;">Tezlik va Samaradorlik</h4>
+                            <p style="color: #cbd5e1; font-size: 0.9rem;">IntelliSense avtomatik to'ldirish, tez kod yozish, xatoliklarni aniqlash va boshqa ko'plab imkoniyatlar.</p>
+                        </div>
+                        
+                        <div style="background: rgba(15, 23, 42, 0.8); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(34, 197, 94, 0.3);">
+                            <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔧</div>
+                            <h4 style="color: #10b981; margin-bottom: 0.5rem;">Kengaytmalar (Extensions)</h4>
+                            <p style="color: #cbd5e1; font-size: 0.9rem;">15000+ dan ortiq kengaytmalar: HTML, CSS, JavaScript, React, va boshqa texnologiyalar uchun.</p>
+                        </div>
+                        
+                        <div style="background: rgba(15, 23, 42, 0.8); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(245, 158, 11, 0.3);">
+                            <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎨</div>
+                            <h4 style="color: #f59e0b; margin-bottom: 0.5rem;">Shaxsiylashtirish</h4>
+                            <p style="color: #cbd5e1; font-size: 0.9rem;">Rangli temalar, shriftlar, qisqartmalar va ish maydonini o'zingizga moslashtiring.</p>
+                        </div>
+                        
+                        <div style="background: rgba(15, 23, 42, 0.8); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(168, 85, 247, 0.3);">
+                            <div style="font-size: 2.5rem; margin-bottom: 1rem;">🌍</div>
+                            <h4 style="color: #8b5cf6; margin-bottom: 0.5rem;">Multi-platform</h4>
+                            <p style="color: #cbd5e1; font-size: 0.9rem;">Windows, macOS, Linux da ishlaydi. Istalgan operatsion tizimda bir xil tajriba.</p>
+                        </div>
+                        
+                        <div style="background: rgba(15, 23, 42, 0.8); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(239, 68, 68, 0.3);">
+                            <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔍</div>
+                            <h4 style="color: #ef4444; margin-bottom: 0.5rem;">Git Integratsiyasi</h4>
+                            <p style="color: #cbd5e1; font-size: 0.9rem;">Qulay Git versiyalarni boshqarish, GitHub bilan ishlash, kodlarni solishtirish.</p>
+                        </div>
+                        
+                        <div style="background: rgba(15, 23, 42, 0.8); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(6, 182, 212, 0.3);">
+                            <div style="font-size: 2.5rem; margin-bottom: 1rem;">🐛</div>
+                            <h4 style="color: #06b6d4; margin-bottom: 0.5rem;">Debugging</h4>
+                            <p style="color: #cbd5e1; font-size: 0.9rem;">Xatoliklarni topish va tuzatish uchun kuchli debugging vositalari.</p>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(34, 197, 94, 0.1); border-left: 4px solid #10b981; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+                        <h4 style="color: #10b981; margin-bottom: 1rem;">🎯 Nega VS Code tanlash kerak?</h4>
+                        <ul style="color: #cbd5e1; margin: 0; padding-left: 1.5rem;">
+                            <li style="margin-bottom: 0.5rem;"><strong>Bepul</strong> - Hech qanday to'lov kerak emas</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>Ochiq kodli</strong> - Hamma ko'rib, taklif berishi mumkin</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>Yengil</strong> - Kompyuterni yuklamaydi</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>Doimiy yangilanadi</strong> - Yangi imkoniyatlar qo'shiladi</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>Katta jamoa</strong> - Yordam topish oson</li>
+                        </ul>
+                    </div>
+                    
+                    <div style="background: rgba(59, 130, 246, 0.1); border-radius: 12px; padding: 1.5rem; margin: 2rem 0;">
+                        <h4 style="color: #3b82f6; margin-bottom: 1rem;">📦 Web-dasturlash uchun zarur kengaytmalar:</h4>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+                            <div style="background: rgba(15, 23, 42, 0.6); padding: 1rem; border-radius: 8px;">
+                                <div style="color: #f59e0b; font-weight: bold; margin-bottom: 0.3rem;">Live Server</div>
+                                <div style="color: #cbd5e1; font-size: 0.85rem;">Veb-sahifani real vaqtda ko'rish</div>
+                            </div>
+                            <div style="background: rgba(15, 23, 42, 0.6); padding: 1rem; border-radius: 8px;">
+                                <div style="color: #f59e0b; font-weight: bold; margin-bottom: 0.3rem;">Prettier</div>
+                                <div style="color: #cbd5e1; font-size: 0.85rem;">Kodni avtomatik formatlash</div>
+                            </div>
+                            <div style="background: rgba(15, 23, 42, 0.6); padding: 1rem; border-radius: 8px;">
+                                <div style="color: #f59e0b; font-weight: bold; margin-bottom: 0.3rem;">ESLint</div>
+                                <div style="color: #cbd5e1; font-size: 0.85rem;">Xatoliklarni tekshirish</div>
+                            </div>
+                            <div style="background: rgba(15, 23, 42, 0.6); padding: 1rem; border-radius: 8px;">
+                                <div style="color: #f59e0b; font-weight: bold; margin-bottom: 0.3rem;">HTML CSS Support</div>
+                                <div style="color: #cbd5e1; font-size: 0.85rem;">CSS classlarini avto-tugatish</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <button id="download-vscode" class="btn btn-primary" style="background: linear-gradient(135deg, #3b82f6, #2563eb); color: white; padding: 1.2rem 2.5rem; font-size: 1.2rem; font-weight: bold; border: none; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; margin-right: 1.5rem; box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);">
+                    <i class="fas fa-download" style="margin-right: 0.5rem;"></i>
+                    VS Code Yuklab Olish
+                </button>
+                
+                <button id="online-editor" class="btn btn-primary" style="background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 1.2rem 2.5rem; font-size: 1.2rem; font-weight: bold; border: none; border-radius: 12px; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);">
+                    <i class="fas fa-code" style="margin-right: 0.5rem;"></i>
+                    Sayt Orqali Kod Yozish
+                </button>
+            </div>
+        </section>
+
+        <!-- Code Editor Section -->
+        <section class="editor-section">
+            <div class="container">
+                <h2 class="section-title">Interaktiv Kod Editör</h2>
+                <div class="editor-container">
+                    <div class="editor-tabs">
+                        <button class="tab-btn active" data-tab="html">HTML</button>
+                        <button class="tab-btn" data-tab="css">CSS</button>
+                        <button class="tab-btn" data-tab="js">JavaScript</button>
+                    </div>
+                    <div class="editor-content">
+                        <div class="editor-pane">
+                            <div class="code-editor active" id="html-editor">
+                                <textarea class="code-textarea" language="html" placeholder="HTML kodini bu yerga yozing...">&lt;!DOCTYPE html&gt;
+&lt;html lang="uz"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Mening birinchi sahifam&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Salom, Dunyo!&lt;/h1&gt;
+    &lt;p&gt;Bu mening birinchi HTML sahifam.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</textarea>
+                            </div>
+                            <div class="code-editor" id="css-editor" style="display: none;">
+                                <textarea class="code-textarea" language="css" placeholder="CSS kodini bu yerga yozing...">body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}</textarea>
+                            </div>
+                            <div class="code-editor" id="js-editor" style="display: none;">
+                                <textarea class="code-textarea" language="javascript" placeholder="JavaScript kodini bu yerga yozing...">// Interaktiv element yaratish
+const button = document.createElement('button');
+button.textContent = 'Menga bosing!';
+button.style.padding = '10px 20px';
+button.style.fontSize = '16px';
+
+button.addEventListener('click', function() {
+    alert('Siz tugmani bosdingiz!');
+});
+
+document.body.appendChild(button);</textarea>
+                            </div>
+                        </div>
+                        <div class="preview-pane">
+                            <div class="preview-header">
+                                <h3>Natija (Preview)</h3>
+                                <div class="preview-controls">
+                                    <button class="run-btn" id="run-code">
+                                        <i class="fas fa-play"></i> Ishga tushirish
+                                    </button>
+                                    <button class="clear-btn" id="clear-code">
+                                        <i class="fas fa-eraser"></i> Tozalash
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="preview-content" id="preview">
+                                <iframe srcdoc=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+           <!-- Frontend Test Section -->
+        <section class="test-section">
+            <div class="container">
+                <h2 class="section-title">Bilimlarni Tekshirish</h2>
+                <div class="test-container">
+                    <div class="test-card">
+                        <div class="test-header">
+                            <h3>Frontend Testi</h3>
+                            <div class="test-info">
+                                <span><i class="fas fa-question-circle"></i> 10 savol</span>
+                                <span><i class="fas fa-clock"></i> 15 daqiqa</span>
+                            </div>
+                        </div>
+                        <div class="test-description">
+                            <p>Frontend dasturlash bo'yicha bilimlaringizni tekshiring. HTML, CSS, JavaScript va zamonaviy texnologiyalar haqida savollar.</p>
+                        </div>
+                        <div class="test-features">
+                            <span><i class="fas fa-chart-line"></i> Batafsil natijalar</span>
+                            <span><i class="fas fa-trophy"></i> Sertifikat</span>
+                            <span><i class="fas fa-redo"></i> Qayta topshirish</span>
+                        </div>
+                        <button class="btn btn-primary" id="start-test">Testni Boshlash</button>
+                    </div>
+                </div>
+
+                <!-- Test Content (Hidden initially) -->
+                <div class="test-content" id="test-content" style="display: none;">
+                    <div class="test-card">
+                        <div class="test-header">
+                            <h3>Frontend Testi</h3>
+                            <div class="test-info">
+                                <span><i class="fas fa-question-circle"></i> <span id="current-question">1</span> / <span id="total-questions">10</span></span>
+                                <span><i class="fas fa-clock"></i> <span id="timer">15:00</span></span>
+                            </div>
+                        </div>
+                        
+                        <!-- Progress Bar -->
+                        <div class="progress-bar" style="background: rgba(148, 163, 184, 0.2); height: 6px; border-radius: 3px; overflow: hidden; margin-bottom: 1.5rem;">
+                            <div class="progress-fill" id="progress-fill" style="height: 100%; background: linear-gradient(90deg, #3b82f6, #8b5cf6); width: 10%; border-radius: 3px; transition: width 0.3s ease;"></div>
+                        </div>
+
+                        <div class="question-container" id="question-container">
+                            <!-- Questions will be loaded here -->
+                        </div>
+
+                        <div class="test-navigation">
+                            <button class="btn btn-secondary" id="prev-question" disabled>
+                                <i class="fas fa-chevron-left"></i> Oldingi
+                            </button>
+                            <button class="btn btn-primary" id="next-question">
+                                Keyingi <i class="fas fa-chevron-right"></i>
+                            </button>
+                            <button class="btn btn-success" id="submit-test" style="display: none;">
+                                <i class="fas fa-check"></i> Testni Tugatish
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Test Results (Hidden initially) -->
+                <div class="test-results" id="test-results" style="display: none;">
+                    <div class="test-card">
+                        <div class="test-header">
+                            <h3>Test Natijalari</h3>
+                        </div>
+                        
+                        <div class="score-display">
+                            <div class="score-circle">
+                                <span id="score-percentage">0%</span>
+                            </div>
+                            <div class="score-details">
+                                <p>To'g'ri javoblar: <span id="correct-count">0</span> / <span id="total-count">10</span></p>
+                                <p>Jami ballar: <span id="score-points">0</span></p>
+                            </div>
+                        </div>
+
+                        <div class="results-details" id="results-details">
+                            <!-- Detailed results will be shown here -->
+                        </div>
+
+                        <div class="result-actions">
+                            <button class="btn btn-secondary" id="retake-test">
+                                <i class="fas fa-redo"></i> Qayta Topshirish
+                            </button>
+                            <button class="btn btn-primary" id="download-certificate" style="display: none;">
+                                <i class="fas fa-download"></i> Sertifikatni Yuklab Olish
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Telegram Survey Banner -->
+        <section class="survey-banner">
+            <div class="container">
+                <div class="survey-content">
+                    <div class="survey-icon">
+                        <i class="fas fa-poll"></i>
+                    </div>
+                    <div class="survey-text">
+                        <h3>📊 Frontend kurslari rivoji sizning fikringizga bog'liq!</h3>
+                        <p>Qanday texnologiyalarni o'rganishni istaysiz? Kurslarni yaxshilash uchun Telegram kanalidagi so'rovnomada qatnashing!</p>
+                    </div>
+                    <div class="survey-button">
+                        <a href="https://t.me/TechWebby" target="_blank" class="survey-link">
+                            <i class="fab fa-telegram"></i>
+                            <span>So'rovnomada qatnashish</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Telegram Contact -->
+        <section class="telegram-contact-section">
+            <div class="container">
+                <div class="telegram-contact">
+                    <h3 class="telegram-title">📱 Frontend dasturlashni to'liq o'rganishni xohlaysizmi?</h3>
+                    <p class="telegram-description">
+                        Agar HTML, CSS, JavaScript va boshqa frontend texnologiyalarini chuqur o'rganish, 
+                        real loyihalar yaratish va shaxsiy yordam olishni istasangiz, 
+                        mening Telegram profilimga yozing:
+                    </p>
+                    <div class="telegram-button">
+                        <a href="https://t.me/TechWebby" target="_blank" class="telegram-link">
+                            <i class="fab fa-telegram"></i>
+                            <span>Telegram orqali bog'lanish</span>
+                        </a>
+                    </div>
+                    <p class="telegram-note">
+                        <small>To'liq kurslar, real loyihalar, portfolio yaratish va ishga joylashish yordami!</small>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mentora by TechWebby. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="main.js"></script>
+    <script src="frontend_new.js"></script>
+</body>
+</html>
