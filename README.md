@@ -39,7 +39,7 @@ Biz yoshlarning **intizomi, rivojlanish madaniyati va mustaqil o‘rganish qobil
 
 ---
 ## 🌍 Jonli sayt / Live Demo
-🔗 [Saytni ko‘rish / View Website](https://www.techwebby.uz)
+🔗 [Saytni ko‘rish / View Website](https://mentora-ecru.vercel.app/)
 
 ---
 
