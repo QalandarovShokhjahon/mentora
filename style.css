@@ -1905,6 +1905,31 @@ body.korean-page {
 }
 
 @media (max-width: 480px) {
+    /* Korean Alphabet Grid - 4 letters per row */
+    .korean-page .lesson-card [style*="grid-template-columns: repeat(auto-fit, minmax(120px, 1fr))"] {
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 0.5rem !important;
+    }
+    
+    .korean-page .lesson-card [style*="grid-template-columns: repeat(auto-fit, minmax(120px, 1fr))"] > div {
+        padding: 0.5rem !important;
+        min-width: 0;
+    }
+    
+    .korean-page .lesson-card [style*="font-size: 2.5rem"] {
+        font-size: 1.8rem !important;
+        margin-bottom: 0.3rem !important;
+    }
+    
+    .korean-page .lesson-card [style*="font-size: 0.9rem"] {
+        font-size: 0.7rem !important;
+        margin-bottom: 0.1rem !important;
+    }
+    
+    .korean-page .lesson-card [style*="font-size: 0.8rem"] {
+        font-size: 0.65rem !important;
+    }
+    
     .contact-details-content h2,
     .form-header h2,
     .faq-section h2 {
@@ -4544,6 +4569,95 @@ font-weight: 600;
 }
 
 @media (max-width: 768px) {
+    /* Test Section Mobile Styles */
+    .test-section {
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+    }
+    
+    .test-card {
+        padding: 1.5rem;
+        margin: 0.5rem;
+    }
+    
+    .test-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .test-header h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .test-info {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .test-features {
+        flex-direction: column;
+        gap: 0.8rem;
+        align-items: flex-start;
+        margin: 1.5rem 0;
+    }
+    
+    .test-content {
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .question-container {
+        padding: 1.5rem;
+    }
+    
+    .question-text {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .options-list {
+        padding: 0;
+    }
+    
+    .option-label {
+        padding: 0.8rem;
+        font-size: 0.95rem;
+    }
+    
+    .test-navigation {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    
+    .test-navigation .btn {
+        width: 100%;
+        margin: 0.2rem 0;
+    }
+    
+    .score-display {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    
+    .score-circle {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+    
+    .result-actions {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    
+    .result-actions .btn {
+        width: 100%;
+        margin: 0.2rem 0;
+    }
+    
     .motivation-quotes {
         grid-template-columns: 1fr;
         gap: 1rem;
